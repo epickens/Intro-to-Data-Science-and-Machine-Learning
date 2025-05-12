@@ -16,6 +16,51 @@ git clone https://github.com/username/repository.git
 git clone https://github.com/username/repository.git my-project-folder
 ```
 
+### `git status`
+
+**Git status** shows the current state of your working directory and staging area. It displays which changes have been staged, which haven't, and which files aren't being tracked by Git.
+
+**Example:**
+
+```bash
+# Check the status of your repository
+git status
+
+# Get a concise status output
+git status -s
+
+# Show ignored files as well
+git status --ignored
+```
+
+**What the output tells you:**
+
+- **Untracked files**: Files that exist in your working directory but aren't tracked by Git
+- **Changes not staged for commit**: Tracked files with changes that haven't been added to the staging area
+- **Changes to be committed**: Files that have been added to the staging area and will be included in the next commit
+- **Branch information**: Your current branch and its relationship to the remote branch
+
+**Example output:**
+
+```
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   data_processing.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        new_data.csv
+        experiments/
+```
+
 ### `git add`
 
 **Git add** stages changes for the next commit. It tells Git which files you want to include in your next commit.
