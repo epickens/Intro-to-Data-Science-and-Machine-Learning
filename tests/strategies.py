@@ -1,10 +1,13 @@
-from hypothesis import settings
-from hypothesis.strategies import floats, integers
+#
+# Credit (initial version): Sasha Rush - MiniTorch
+#
 import os
 import sys
 
-import fundamentals
+from hypothesis import settings
+from hypothesis.strategies import floats, integers
 
+import fundamentals
 
 settings.register_profile("ci", deadline=None)
 settings.load_profile("ci")

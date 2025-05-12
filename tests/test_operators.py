@@ -1,3 +1,7 @@
+#
+# Credit: Sasha Rush - MiniTorch
+#
+
 from typing import Callable, List, Tuple
 
 import pytest
@@ -28,7 +32,6 @@ from fundamentals.operators import (
 from .strategies import assert_close, small_floats
 
 # from strategies import assert_close, small_floats
-
 
 
 @pytest.mark.task0_1
@@ -90,7 +93,6 @@ def test_eq(a: float) -> None:
     assert eq(a, a) == 1.0
     assert eq(a, a - 1.0) == 0.0
     assert eq(a, a + 1.0) == 0.0
-
 
 
 # checks that ensure that your operators obey basic
@@ -167,7 +169,6 @@ def test_other() -> None:
     assert inv_back(-2.0, -2.0) > inv_back(-3.0, -2.0)
     assert inv_back(-2.0, 2.0) < inv_back(-3.0, 2.0)
     assert inv_back(2.0, 2.0) == -1 * inv_back(2.0, -2.0)
-
 
 
 # These tests check that your higher-order functions obey basic

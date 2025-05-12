@@ -1,3 +1,6 @@
+#
+# Credit: Sasha Rush - MiniTorch
+#
 """
 Collection of the core mathematical operators used throughout the code base.
 """

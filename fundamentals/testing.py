@@ -1,8 +1,12 @@
+#
+# Credit (initial version): Sasha Rush - MiniTorch
+#
 from typing import Callable, Generic, Iterable, Tuple, TypeVar
 
 import fundamentals.operators as operators
 
 A = TypeVar("A")
+
 
 class MathTest(Generic[A]):
     @staticmethod
