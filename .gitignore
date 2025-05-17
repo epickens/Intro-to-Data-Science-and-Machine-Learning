@@ -1,3 +1,30 @@
+# OSX
+#  General OS X files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+#  Visual Studio Code settings
+.vscode/
+#  Visual Studio Code extensions
+.vscode-test/
+#  Visual Studio Code workspace settings
+.vscode-workspace/
+#  Visual Studio Code workspace storage
+.vscode-storage/
+#  Visual Studio Code user settings
+.vscode-user/
+#  Visual Studio Code snippets
+.vscode-snippets/
+#  Visual Studio Code tasks
+.vscode-tasks/
+#  Visual Studio Code launch configurations
+.vscode-launch/
+#  Visual Studio Code workspace recommendations
+.vscode-recommendations/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
