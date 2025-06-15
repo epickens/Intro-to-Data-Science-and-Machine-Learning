@@ -6,4 +6,3 @@ dependencies:
   - pymc[version='>=5']
   - exoplanet
   - numpy[version='>=1.22.4']
-prefix: /home/elliot/miniforge3/envs/astro_env
