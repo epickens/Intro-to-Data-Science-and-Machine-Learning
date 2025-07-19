@@ -1,8 +1,11 @@
-name: astro_env
+name: astrostat_env
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - python=3.10
+  #- exoplanet[pymc]
+  #- exoplanet[extras]
+  - python
   - pymc[version='>=5']
-  - exoplanet
   - numpy[version='>=1.22.4']
+  - lightkurve
